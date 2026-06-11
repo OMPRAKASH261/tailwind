@@ -3,9 +3,30 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="output.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
     <title>Document</title>
 </head>
 <body>
-    hi
+    <header class="h-auto md:h-[100%] bg-cover bg-[url('./assets/BG.png')] text-[#043A53]">
+        <nav class="bg-cover bg-[url('./assets/BG.png')] fixed top-0 z-20 w-[100vw] px-4 lg:x-14 md:bg-transparent h-16 flex items-center justify-center"></nav>
+        <div class="flex items-center justify-between w-full">
+            <img src="./assets/Logo.png" class="w-24 h-5" alt="">
+            <ul class="hidden md:flex font-semibold">
+                <li class="md:mx-2 lg:mx-2" cursor-pointer>Features</li>
+                <li class="md:mx-2 lg:mx-2" cursor-pointer>Solution</li>
+                <li class="md:mx-2 lg:mx-2" cursor-pointer>Company</li>
+                <li class="md:mx-2 lg:mx-2" cursor-pointer>Resources</li>
+                <li class="md:mx-2 lg:mx-2" cursor-pointer>Contact</li>
+            </ul>
+            <div class="md:hidden text-3xl text-[#043A53]">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+            <div class="hidden md:flex">
+                <div class="md:px-2 lg:px-4 py-1 bg-white text-[#12141D] rounded-2xl mr-2">Log In</div>
+                <div class="md:px-2 lg:px-4 py-1 bg-white text-[#12141D] rounded-2xl mr-2">Sign In</div>
+            </div>
+        </div>
+    </header>
 </body>
 </html>
